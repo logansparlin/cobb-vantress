@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js"> 
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Distributors</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApUSiddfk5SFAzatjDy6I8BUNBUm7Ue68"></script>
+	<script src="js/imagesloaded.min.js"></script>
+	<script src="js/isotope.min.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/selectivizr-min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+<header id="primary-nav" role="navigation">		
+		<nav class="container">			
+			<a href="/" id="logo">Cobb Home</a>			
+			<ul>
+				
+				<li><a href="../products" class="has-dropdown" data-dropdown="products">Products</a></li>
+				<li><a href="../cobb-academy">Cobb Academy</a></li>
+				<li><a href="../a-better-world">A Better World</a></li>
+				<li><a href="../about-cobb">About Cobb</a></li>
+				<li><a href="../life-at-cobb">Life at Cobb</a></li>
+				<li><a href="../press-room">Press Room</a></li>						
+				
+				<li>				
+				<input name="ctl00$header1$globalsearch" type="text" id="header1_globalsearch" class="global-search" style="width:140px; background-image:url(/graphics/assets/transparent_1x1.png); background-color:Transparent; border:solid 1px #666666;">
+
+                <!-- Firefox shot goes here -->
+			
+				</li>
+				
+			</ul>			
+			<a class="toggle" id="menu-toggle" title="Reveal Menu">Show Menu</a>
+		</nav>
+		<div style="display:none">
+		<input type="submit" name="ctl00$header1$Button1" value="Button" id="header1_Button1">
+		</div>		
+</header>
+<div class="container">
+	<div class="row">
+		<div class="eight columns">
+			<h1 class="page-header">Distributors</h1>
+		</div>
+		<div class="eight columns">
+			<p class="tagline">
+			Cobb's global network of distributors represents our commitment to consistently delivering the highest-quality products around the world.
+			</p>
+		</div>
+	</div>
+	<hr>
+	<!-- Map Filters / Checkboxes -->
+	<form id="map-filters" action="#" class="legend">
+		<div class="filter-container">
+			<input id="producerbox" type="checkbox" data-filter="producer" />
+	  		<label for="producer">Producer <span class="marker"><img class="marker" src="img/producer.png" alt=""></span> </label>
+	  	</div>
+	  	<div class="filter-container">
+			<input id="distributorbox"type="checkbox" data-filter="distributor" />
+	  		<label for="distributor">Distributor <span class="marker"><img class="marker" src="img/distributor.png" alt=""></span> </label> 
+	  	</div>
+	  	<div class="filter-container"> 
+	  		<input id="cobbbox" type="checkbox" data-filter="cobb" />
+	  		<label for="cobb">Fully Owned Cobb Facility <span class="marker"><img class="marker" src="img/cobbmarker.png" alt=""></span> </label> 
+	  	</div>
+	</form>
+	</div>
+		<!-- MAP CANVAS -->
+	<div class="container">
+		<div id="map-canvas"></div>
+	</div>
+		<div class="container"><hr/></div>
+	<!-- Box Filters -->
+	<div id="filters" class="container filters">
+		<button class="active" data-filter="*">All</button>
+		<button data-filter=".north-america">North America</button>
+		<button data-filter=".south-america">South America</button>
+		<button data-filter=".asia">Asia</button>
+		<button data-filter=".EMEA">Europe, Middle East, Africa</button>
+	</div>
+	<div id="container" class="container distributors">
+		<div class="row"></div>
+</div><!-- container -->
+<div class="container">
+	<hr class="footer">
+	<p class="body-copy">
+		Cobb strives to fully understand the customer quality expectations from bird health, chick quality, optimal delivery, preferred scheduling, accurate documentation and acceptable health certificate criteria. All the components in completing successful, individual customer supply and delivery are captured by our Perfect Order Quality System which ensures quality of product and delivery matches the requirements and expectations of our customer.
+	</p>
+</div>
+<footer>
+	
+		<div class="container">
+			
+			<div class="row">
+		
+				<div class="column fourth">
+				
+				    <h5 class="white">Products</h5>
+				    <ul class="none">
+				    	<li><a href="../products/products-overview" id="footer1_A1">Product Overview</a></li>
+				    	<li><a href="../products/cobb500" id="footer1_A2">Cobb500™</a></li>
+				    	<li><a href="../products/cobb700" id="footer1_A3">Cobb700™</a></li>
+				    	<li><a href="../products/cobbavian48" id="footer1_A4">CobbAvian48™</a></li>
+				    	<li><a href="../products/cobbsasso150" id="footer1_A5">CobbSasso™</a></li>
+                        <li><a href="../products/guide-library" id="footer1_A6">Cobb Guide Library</a></li>
+				    </ul>
+				
+				</div>
+				
+				<div class="column fourth">
+				
+				    <h5 class="white">Cobb Academy</h5>
+				    <ul class="none">
+				    	<li><a href="../cobb-academy" id="footer1_A7">Overview</a></li>
+				    	<li><a href="../cobb-academy/ask-the-expert" id="footer1_A8">Ask The Expert</a></li>
+				    	<li><a href="../cobb-academy/world-tech-school" id="footer1_A9">World Tech School</a></li>
+				    	<li><a href="../cobb-academy/cobb-guide-library" id="footer1_A10">Cobb Guide Library</a></li>
+				    	<li><a href="../cobb-academy/overview/blog/-in-category/categories/breeders" id="footer1_A11">Breeders</a></li>
+				    	<li><a href="../cobb-academy/overview/blog/-in-category/categories/broilers" id="footer1_A12">Broilers</a></li>
+				    	<li><a href="../cobb-academy/overview/blog/-in-category/categories/hatchery" id="footer1_A13">Hatchery</a></li><a href="../cobb-academy/overview/blog/-in-category/categories/nutrition" id="footer1_A14">Nutrition</a>
+				    </ul>
+				
+				</div>
+				
+				<div class="column fourth">
+				
+				    <h5 class="white">A Better World</h5>
+				    <ul class="none">
+				    	<li><a href="../a-better-world" id="footer1_A15">Overview</a></li>
+				    	<li><a href="../a-better-world/overview/blog/-in-category/categories/animal-welfare" id="footer1_A16">Animal Welfare</a></li>
+				    	<li><a href="../a-better-world/overview/blog/-in-category/categories/sustainability" id="footer1_A17">Sustainability</a></li>
+				    	<li><a href="../a-better-world/overview/blog/-in-category/categories/global-food" id="footer1_A18">Global Food</a></li>
+				    	<li><a href="../a-better-world/overview/blog/-in-category/categories/our-global-community" id="footer1_A19">Our Global Community</a></li>
+				    </ul>
+				
+				</div>
+				
+				
+				
+			</div>
+			
+			<div class="row">
+				
+				<div class="column fourth">
+				
+				    <h5 class="white">About Cobb</h5>
+				    <ul class="none">
+                    <li><a href="../about-cobb" id="footer1_A20">About Cobb</a></li>
+                         	<li><a href="history" id="footer1_A21">Our History</a></li>
+				    	<li><a href="philsophy-values" id="footer1_A22">Philosophy &amp; Values</a></li>
+				    	<li><a href="helping-customers" id="footer1_A23">Helping Customers</a></li>
+				    	<li><a href="management" id="footer1_A61">Cobb Management</a></li>
+				    	<li><a href="distributors" id="footer1_A62">Distributors</a></li>
+				    	<li><a href="technical-service-team" id="footer1_A63">Technical Service Team</a></li>
+				    	<li><a href="animal-well-being" id="footer1_A64">Animal Well Being</a></li>
+				    	<li><a href="contact-us" id="footer1_A65">Contact Us</a></li>
+				    </ul>
+				
+				</div>
+				
+				<div class="column fourth">
+				    
+				    <h5 class="white">Life at Cobb</h5>
+				    <ul class="none">
+				    	<li><a href="../life-at-cobb/career-profiles" id="footer1_A66">Career Profiles</a></li>
+				    	<li><a href="../life-at-cobb/join-cobb" id="footer1_A67">Join Cobb</a></li>
+				    	<li><a href="../life-at-cobb/disability-friendly" id="footer1_A68">Disability Friendly</a></li>
+				    </ul>
+				    
+				    <h5 class="white">Press Room</h5>
+				    <ul class="none">
+                        <li><a href="../press-room/press-releases" id="footer1_A69">Press Releases</a></li>
+				    	<li><a href="../press-room/industry-events" id="footer1_A70">Industry Events</a></li>
+				    </ul>
+				
+				</div>
+				
+				<div class="column fourth">
+				    
+				    <h5 class="white">Utility Links</h5>
+				    <ul class="none">
+
+<li><a href="../utility-links/privacy-policy" id="footer1_A71">Privacy Policy</a></li>
+				    	<li><a href="../utility-links/terms-of-use" id="footer1_A72">Terms of Use</a></li>
+				    	<li><a href="../utility-links/business-to-business" id="footer1_A73">Business to Business</a></li>
+				    	<li><a href="../utility-links/supplier-code-of-conduct" id="footer1_A74">Supplier Code of Conduct</a></li>
+						<li><a href="../utility-links/cobb-employee-bill-of-rights" id="footer1_A75">Cobb Employee Bill Of Rights</a></li>
+						<li><a href="../utility-links/mobile-app" id="footer1_A76">Cobb Mobile App</a></li>
+				    </ul>
+				
+				</div>
+				
+			</div>
+		
+		</div>
+	
+</footer>
+<script src="js/markerclusterer.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

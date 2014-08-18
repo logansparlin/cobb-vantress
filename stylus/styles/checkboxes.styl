@@ -1,0 +1,62 @@
+form.legend
+	margin-top 2em
+	input[type="checkbox"]
+		margin-left 4em
+		margin-right 5px
+		background transparent
+		border 2px solid primary-grey
+	input[type="checkbox"]:nth-child(1)
+		margin-left 0px
+
+label
+	display inline
+	font 1.4em 'TradeGothic_CnBd', sans-serif
+
+input[type="checkbox"] 
+			-webkit-appearance  none
+			-moz-appearance none
+			appearance none
+			border  2px solid primary-grey
+			margin-bottom -3px
+			width 20px
+			height 20px
+			border-radius px
+			outline none
+			display inline-block
+			position relative
+		
+
+		input[type="checkbox"]:checked 
+			background-color transparent
+		
+
+		input[type="checkbox"]:checked:after 
+			content  url('../img/check.png')
+			width 18px
+			height 18px
+			top 1px
+			position absolute
+			left 2px
+			-webkit-transition  -webkit-transform 150ms cubic-bezier(.42,.12,.3,1.55)
+			-moz-transition -moz-transform 150ms cubic-bezier(.42,.12,.3,1.55)
+		
+		input[type="checkbox"]:active 
+			background-color transparent
+		
+
+img.marker
+	display inline-block
+	margin-bottom -3px
+	padding-left 5px
+	
+div.filter-container 
+	display inline
+	margin-left 40px
+div.filter-container:nth-child(1)
+	margin-left 0
+		
+hr 
+	max-width 1260px
+	margin 0 auto
+	margin-top 3em
+	margin-bottom 3em

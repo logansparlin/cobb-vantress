@@ -1,0 +1,63 @@
+footer {
+	// background url(../graphics/assets/texture-grey.png);
+	// background url(../graphics/assets/texture-grey.svg);
+	background-repeat repeat-x;
+	background-color #333333;
+	padding 1.5em 0 0 0;
+	-webkit-box-sizing border-box;
+	-moz-box-sizing border-box;
+	box-sizing border-box;
+	font-size .9em;
+	margin-top 2em
+	border-top 1px solid #cccccc;
+	border-bottom 10px solid #e23a3e;
+	font-size 1.3em
+}
+
+footer .container 
+	background #333333 url(../img/cobb_logo.svg) left top no-repeat
+	padding-bottom 8em
+	background-size 5em
+
+h5.white
+	padding-bottom 20px
+
+footer a {
+	border none;
+	color #6e6e6e;
+	line-height 1.8em
+	text-decoration none
+}
+
+footer a:hover 
+	color primary-red
+	border-bottom 1px dotted primary-red
+
+.white {
+color #ffffff;
+}
+
+.container .column.fourth {
+width 25%;
+}
+
+footer .row {
+padding-left 15%;
+}
+
+@media only screen and (max-width 767px)
+
+	footer
+		font-size 1em
+		.container .column.fourth
+			width 100%
+		.container
+			padding-bottom 0
+			background-size 6em
+	footer .row:nth-child(1)
+		padding-top 6em
+	footer .row
+		padding-left 0
+
+
+
